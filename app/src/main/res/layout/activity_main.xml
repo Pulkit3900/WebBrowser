@@ -25,20 +25,20 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="25dp"
         android:layout_marginEnd="25dp"
-        android:autofillHints="Lets Explore" />
+        android:lines="1"
+        android:singleLine="true"
+        android:imeOptions="actionGo"
+        android:autofillHints="Enter Your URL" />
 
     <Button
         android:id="@id/search_button"
         android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="160dp"
-        android:layout_marginTop="484dp"
-        android:layout_marginEnd="163dp"
-        android:layout_marginBottom="199dp"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:layout_below="@+id/search_edit"
+        android:layout_alignStart="@+id/search_edit"
+        android:layout_alignEnd="@+id/search_edit"
+        android:layout_marginTop="100dp"
         android:text="@string/search" />
 
 

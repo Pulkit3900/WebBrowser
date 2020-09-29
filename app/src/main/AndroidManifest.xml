@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/blackhole"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
         <activity android:name=".webview" >
         </activity>
         <activity android:name=".Splashscreen" android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">

@@ -6,6 +6,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class Splashscreen extends AppCompatActivity {
     private static final long SPLASH_TIMEOUT = 1500;
     @Override
@@ -15,9 +18,18 @@ public class Splashscreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent = new Intent(Splashscreen.this, MainActivity.class);
-                startActivity(intent);
-                finish();
+                FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+                if(null != user) {
+                    System.out.println("User Signed In");
+                    Intent intent = new Intent(Splashscreen.this, MainActivity.class);
+                    startActivity(intent);
+                    finish();
+                } else {
+                    System.out.println("Not Signed In");
+                    Intent intent = new Intent(Splashscreen.this, LoginActivity.class);
+                    startActivity(intent);
+                    finish();
+                }
             }
         }, SPLASH_TIMEOUT);
 

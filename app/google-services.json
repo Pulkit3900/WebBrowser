@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "697376140585",
+    "firebase_url": "https://webbrowser-cfee6.firebaseio.com",
+    "project_id": "webbrowser-cfee6",
+    "storage_bucket": "webbrowser-cfee6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697376140585:android:476a22e7c95aa67c399b38",
+        "android_client_info": {
+          "package_name": "com.example.webbrowser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697376140585-5rnhertfnhm3rbr6cabuer3ed5ivapcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.webbrowser",
+            "certificate_hash": "2291dd350ac2e9a71fba11dbff8919befc80f1b6"
+          }
+        },
+        {
+          "client_id": "697376140585-50folf502gfqtf06ncsra4e86dbluhmq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByVWRyaL6N4WgGmg2ctzwB2e2g6jwEn-s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697376140585-50folf502gfqtf06ncsra4e86dbluhmq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -2,5 +2,6 @@
     <string name="app_name">WebBrowser</string>
     <string name="lets_explore">Enter Your URL!</string>
     <string name="search">Search</string>
+    <string name="logout">Logout</string>
 
 </resources>

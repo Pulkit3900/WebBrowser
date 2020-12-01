@@ -9,6 +9,7 @@
 
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageblack"
         android:layout_width="110dp"
         android:layout_height="230dp"
         android:layout_above="@+id/search_edit"
@@ -32,13 +33,13 @@
 
     <Button
         android:id="@+id/search_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:paddingHorizontal="10dp"
         android:layout_below="@+id/search_edit"
-        android:layout_alignStart="@+id/search_edit"
-        android:layout_alignEnd="@+id/search_edit"
-        android:layout_marginTop="100dp"
+        android:layout_alignStart="@+id/imageblack"
+        android:layout_alignEnd="@id/imageblack"
+        android:layout_marginTop="50dp"
         android:text="@string/search" />
 
     <Button

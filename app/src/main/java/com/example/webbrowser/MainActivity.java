@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         });
         sbutton.setOnClickListener(view -> openWebsite(sedit.getText().toString()));
         sedit.setOnEditorActionListener((v, actionId, event) -> {
+
             if(actionId == EditorInfo.IME_ACTION_GO) {
                 openWebsite(sedit.getText().toString());
                 return true;
